@@ -1,14 +1,8 @@
-even=[]
-odd=[]
-for i in range(1,11):
-    if(i%2==0):
-        even.append(i)
-    else:
-        odd.append(i)
-x=-1
-y=0
-for i in range(11):
-    print(even[x],end=" ")
-    print(odd[y],end=" ")
-    x=x-1
-    y=y+1
+x=10;y=1
+print(x,end=" ")
+print(y,end=" ")
+for i in range(4):
+    x=x-2
+    y=y+2
+    print(x,end=" ")
+    print(y,end=" ")
